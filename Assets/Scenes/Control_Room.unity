@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.011190118, g: 0.009180814, b: 0.006822833, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -647,6 +647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.93396
@@ -1020,6 +1024,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -82.71819
@@ -1209,6 +1217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.828186
@@ -1323,6 +1335,45 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 58389572}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &59201256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 59201257}
+  m_Layer: 0
+  m_Name: Main_Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &59201257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59201256}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 976447432}
+  - {fileID: 1442351736}
+  - {fileID: 1179138289}
+  - {fileID: 549024295}
+  - {fileID: 1251182432}
+  - {fileID: 1588175192}
+  - {fileID: 136813046}
+  - {fileID: 509548825}
+  m_Father: {fileID: 153724533}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &64340438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2252,6 +2303,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70.43396
@@ -2834,6 +2889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.93396
@@ -3306,6 +3365,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 136666271}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &136813043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 136813046}
+  - component: {fileID: 136813045}
+  - component: {fileID: 136813044}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &136813044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136813043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &136813045
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136813043}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.7242346, g: 0.98808557, b: 0.990566, a: 1}
+  m_Intensity: 27.96
+  m_Range: 14.718534
+  m_SpotAngle: 109.50428
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &136813046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136813043}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.36244187, y: 0.25466308, z: -0.38524288, w: 0.80954957}
+  m_LocalPosition: {x: 7.5150566, y: -8.476746, z: 26.804934}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: -22.993, y: 48.7, z: -61.415}
 --- !u!1001 &137726346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3534,6 +3711,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3821,6 +4002,40 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 149040411}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &153724532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153724533}
+  m_Layer: 0
+  m_Name: ----LIGHTING----
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153724533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153724532}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -13.2010565, y: 10.437746, z: 15.193068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 980526241}
+  - {fileID: 705507995}
+  - {fileID: 59201257}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &172568853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3832,6 +4047,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3970,6 +4189,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4172,6 +4395,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70.21819
@@ -4234,6 +4461,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4519,6 +4750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0302
@@ -4644,6 +4879,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5203,6 +5442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (93)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.627426
@@ -5354,6 +5597,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5636,6 +5883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.82819
@@ -5761,6 +6012,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5888,6 +6143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -81.71819
@@ -5950,6 +6209,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6014,6 +6277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.71819
@@ -6076,6 +6343,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6350,6 +6621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.43396
@@ -6412,6 +6687,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6643,6 +6922,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7185,6 +7468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.828186
@@ -7248,6 +7535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0292
@@ -7310,6 +7601,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7449,6 +7744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -78.93396
@@ -7585,6 +7884,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8216,6 +8519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -84.43396
@@ -8786,6 +9093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0292
@@ -8911,6 +9222,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9686,6 +10001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -76.93396
@@ -9737,6 +10056,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 508630974}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &509548824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 509548825}
+  - component: {fileID: 509548827}
+  - component: {fileID: 509548826}
+  m_Layer: 0
+  m_Name: Spot Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &509548825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509548824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.06780445, y: -0.46415013, z: -0.5245746, w: 0.7104849}
+  m_LocalPosition: {x: 18.298058, y: -8.476746, z: 26.562933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: -22.993, y: -52.536, z: -61.415}
+--- !u!114 &509548826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509548824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &509548827
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509548824}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.7242346, g: 0.98808557, b: 0.990566, a: 1}
+  m_Intensity: 27.96
+  m_Range: 14.718534
+  m_SpotAngle: 109.50428
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &510032780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9748,6 +10185,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10235,6 +10676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -77.71819
@@ -10562,6 +11007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.828186
@@ -10688,6 +11137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.828205
@@ -10739,6 +11192,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 548770539}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &549024294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549024295}
+  - component: {fileID: 549024297}
+  - component: {fileID: 549024296}
+  m_Layer: 0
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549024295
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549024294}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: 25.193056, y: -0.3867464, z: 29.47693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549024296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549024294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &549024297
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549024294}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.29
+  m_Range: 10.878304
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 1990, z: -289, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &551321621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10966,6 +11537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.71819
@@ -11092,6 +11667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1  Jnction (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fdbbfb90ab039435493cc19a6e89fb4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fdbbfb90ab039435493cc19a6e89fb4b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.82819
@@ -11154,6 +11733,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11280,6 +11863,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11871,6 +12458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.82819
@@ -12154,6 +12745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.82819
@@ -12243,6 +12838,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12483,6 +13082,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.43396
@@ -12613,6 +13216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.21819
@@ -12676,6 +13283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.218185
@@ -12738,6 +13349,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13050,6 +13665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.218185
@@ -13175,6 +13794,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13414,6 +14037,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13675,7 +14302,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1.8958e-41, y: 0, z: 0, w: 0.09459609}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -13688,13 +14315,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: -0.061894264, y: 0.07944709, z: 0.83804643, w: 0.53622335}
+  m_LocalPosition: {x: 10.081057, y: -5.687746, z: -15.193068}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_Father: {fileID: 153724533}
+  m_LocalEulerAnglesHint: {x: -11.51, y: -361.084, z: -245.117}
 --- !u!114 &705507996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13866,6 +14493,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14131,6 +14762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.8282
@@ -14193,6 +14828,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14410,6 +15049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.02919
@@ -14472,6 +15115,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14711,6 +15358,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15110,6 +15761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -78.718185
@@ -15172,6 +15827,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15381,6 +16040,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16161,6 +16824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.82818
@@ -16674,6 +17341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.71819
@@ -16807,6 +17478,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17195,6 +17870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.21819
@@ -17392,6 +18071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.82819
@@ -17454,6 +18137,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 Corner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17719,6 +18406,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.82819
@@ -17927,6 +18618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -87.82821
@@ -17989,6 +18684,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18158,6 +18857,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.82819
@@ -18220,6 +18923,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18566,6 +19273,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.62619
@@ -18628,6 +19339,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18762,6 +19477,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19162,6 +19881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.93396
@@ -19225,6 +19948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 T Jnction
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ad087d7bf27e24d2a9df435ab8d266ac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ad087d7bf27e24d2a9df435ab8d266ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.82819
@@ -19287,6 +20014,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19383,6 +20114,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19598,6 +20333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.82819
@@ -19783,6 +20522,230 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 970021517}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &976447429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 976447432}
+  - component: {fileID: 976447431}
+  - component: {fileID: 976447430}
+  m_Layer: 0
+  m_Name: Point Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &976447430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976447429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &976447431
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976447429}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 4.7
+  m_Range: 4.96
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 33, z: 12, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &976447432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976447429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: 2.608056, y: -5.416746, z: 34.382935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980526237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 980526241}
+  - component: {fileID: 980526240}
+  - component: {fileID: 980526239}
+  - component: {fileID: 980526238}
+  m_Layer: 0
+  m_Name: Directional_Light_blocker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &980526238
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980526237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &980526239
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980526237}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &980526240
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980526237}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &980526241
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980526237}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 13.501057, y: -4.377746, z: -7.2930675}
+  m_LocalScale: {x: 5.2948, y: 1, z: 22.829102}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 153724533}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1001 &993306641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19857,6 +20820,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20062,6 +21029,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Corner (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20289,6 +21260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (82)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20554,6 +21529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.627426
@@ -20616,6 +21595,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20925,6 +21908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.82819
@@ -20987,6 +21974,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21324,6 +22315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80.43396
@@ -21493,6 +22488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.718185
@@ -21556,6 +22555,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.82819
@@ -21618,6 +22621,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22042,6 +23049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.93396
@@ -22308,6 +23319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.82817
@@ -22460,6 +23475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.627426
@@ -22522,6 +23541,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22648,6 +23671,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22920,6 +23947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.828186
@@ -23045,6 +24076,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23319,6 +24354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.627426
@@ -23528,6 +24567,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.627426
@@ -23650,6 +24693,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1173529916}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1179138288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1179138289}
+  - component: {fileID: 1179138291}
+  - component: {fileID: 1179138290}
+  m_Layer: 0
+  m_Name: Point Light (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1179138289
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179138288}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: 12.588057, y: 2.8702536, z: 21.895933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1179138290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179138288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1179138291
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179138288}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.29
+  m_Range: 10.39
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 6e-44, z: 1e-45, w: 1.8866e-41}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1183160442
 GameObject:
   m_ObjectHideFlags: 0
@@ -23922,6 +25083,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24270,6 +25435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -82.21819
@@ -24332,6 +25501,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24783,6 +25956,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1243867928}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1251182431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1251182432}
+  - component: {fileID: 1251182434}
+  - component: {fileID: 1251182433}
+  m_Layer: 0
+  m_Name: Point Light (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1251182432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251182431}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: 13.331057, y: -1.6077461, z: 13.856932}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1251182433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251182431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1251182434
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1251182431}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.29
+  m_Range: 10.878304
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.05e-43}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1259524971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24857,6 +26148,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25256,6 +26551,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25893,6 +27192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.82819
@@ -26119,6 +27422,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Mid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188105e1000f746b78e3c0ea48a6c46b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188105e1000f746b78e3c0ea48a6c46b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2728741
@@ -26189,6 +27496,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26461,6 +27772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 Corner
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.828194
@@ -26708,6 +28023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67.828186
@@ -26897,6 +28216,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -83.82819
@@ -26959,6 +28282,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27223,6 +28550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.43396
@@ -27285,6 +28616,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27640,6 +28975,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0292
@@ -27829,6 +29168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.43396
@@ -27960,6 +29303,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: fdbbfb90ab039435493cc19a6e89fb4b, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1  Jnction
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fdbbfb90ab039435493cc19a6e89fb4b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fdbbfb90ab039435493cc19a6e89fb4b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28112,6 +29459,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28633,6 +29984,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1441662835}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1442351735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442351736}
+  - component: {fileID: 1442351738}
+  - component: {fileID: 1442351737}
+  m_Layer: 0
+  m_Name: Point Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442351736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442351735}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: 13.533056, y: -5.3097463, z: 21.895933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1442351737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442351735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1442351738
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442351735}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.29
+  m_Range: 5.02
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1449742277
 GameObject:
   m_ObjectHideFlags: 0
@@ -28833,6 +30302,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3c4126d9867a145ea8aaa00c76fac1ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29274,6 +30747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.21819
@@ -29473,6 +30950,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29841,6 +31322,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30625,6 +32110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 Corner (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -87.828224
@@ -30923,6 +32412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.93396
@@ -31037,6 +32530,124 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1585297232}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1588175191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1588175192}
+  - component: {fileID: 1588175194}
+  - component: {fileID: 1588175193}
+  m_Layer: 0
+  m_Name: Point Light (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1588175192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588175191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18948309, y: -0.17686187, z: 0.03449169, w: 0.96520793}
+  m_LocalPosition: {x: -1.568944, y: -0.3867464, z: 29.47693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59201257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1588175193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588175191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+--- !u!108 &1588175194
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588175191}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 8.29
+  m_Range: 10.878304
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: NaN, y: 33, z: 12, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1588252364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31048,6 +32659,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31186,6 +32801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.828194
@@ -31319,6 +32938,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31844,6 +33467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0092
@@ -31939,6 +33566,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.828205
@@ -32001,6 +33632,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32198,6 +33833,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32711,6 +34350,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.82819
@@ -32774,6 +34417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -81.43396
@@ -32836,6 +34483,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33041,6 +34692,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33298,6 +34953,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33801,6 +35460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c96c4a063e2944b399451fb71174fe1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -66.629425
@@ -33864,6 +35527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -59.828194
@@ -33926,6 +35593,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34053,6 +35724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -71.43396
@@ -34115,6 +35790,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34825,6 +36504,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70.718185
@@ -34887,6 +36570,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35084,6 +36771,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35462,6 +37153,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -35890,6 +37585,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -82.93396
@@ -36132,6 +37831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -74.43396
@@ -36352,6 +38055,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37338,6 +39045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80.21819
@@ -37543,6 +39254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -75.82819
@@ -37742,6 +39457,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 188105e1000f746b78e3c0ea48a6c46b, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Mid (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 188105e1000f746b78e3c0ea48a6c46b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 188105e1000f746b78e3c0ea48a6c46b, type: 3}
       propertyPath: m_LocalScale.x
@@ -38024,6 +39743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0292
@@ -38157,6 +39880,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -38910,6 +40637,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 85821408}
     m_Modifications:
+    - target: {fileID: 539689765839404378, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 903360438891560401, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2476834107762165992, guid: b52f1db2e2529414a8be1d030f5274f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -38960,10 +40697,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2632270513749989119, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370066377368006105, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7729330181968629390, guid: b52f1db2e2529414a8be1d030f5274f7,
         type: 3}
       propertyPath: m_Name
       value: 2x2_Central_Floor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729330181968629390, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556688039832702665, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39242,6 +40999,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -78.43396
@@ -39502,6 +41263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 Corner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8805b6317ec8f44c2ab258c31918e12c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.828194
@@ -39564,6 +41329,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39698,6 +41467,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39937,6 +41710,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40209,6 +41986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -68.218185
@@ -40272,6 +42053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -87.82818
@@ -40334,6 +42119,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40471,6 +42260,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -40862,6 +42655,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_Name
       value: Floor Accessory 1 (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41460,6 +43257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor Floor 1 with Vent
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 967c92490618848d18a4aaeba48a1143, type: 3}
       propertyPath: m_LocalPosition.x
       value: -79.82819
@@ -41846,6 +43647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor Accessory 1 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e29749c856b3d47229be6290493b7130, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e29749c856b3d47229be6290493b7130, type: 3}
       propertyPath: m_LocalPosition.x
       value: -91.8282
@@ -41908,6 +43713,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42199,6 +44008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -73.93396
@@ -42407,6 +44220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (40)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
       value: -85.0292
@@ -42469,6 +44286,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_Name
       value: Modular_Floor_Accessory_Straight (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0629ef0b16ed84518b06cf7922460176, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43043,6 +44864,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 85821408}
     m_Modifications:
+    - target: {fileID: 539689765839404378, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 903360438891560401, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2476834107762165992, guid: b52f1db2e2529414a8be1d030f5274f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -43093,10 +44924,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2632270513749989119, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5370066377368006105, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7729330181968629390, guid: b52f1db2e2529414a8be1d030f5274f7,
         type: 3}
       propertyPath: m_Name
       value: 2x2_Central_Floor
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729330181968629390, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8556688039832702665, guid: b52f1db2e2529414a8be1d030f5274f7,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -43573,6 +45424,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 773276699}
-  - {fileID: 705507995}
   - {fileID: 1612623913}
   - {fileID: 793471040}
+  - {fileID: 153724533}
