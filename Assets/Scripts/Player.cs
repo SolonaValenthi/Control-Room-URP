@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(direction), 0.6f))
         {
-            Debug.Log("Wall detected");
+            return;
         }
         else
         {
