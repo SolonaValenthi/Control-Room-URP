@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -8,11 +9,13 @@ public class Player : MonoBehaviour
     private float _rotateSpeed = 120.0f;
 
     MeshRenderer _playerMesh;
+    Rigidbody _playerRB;
 
     // Start is called before the first frame update
     void Start()
     {
         _playerMesh = gameObject.GetComponent<MeshRenderer>();
+        _playerRB = gameObject.GetComponent<Rigidbody>();
 
         _playerMesh.enabled = false;
     }
@@ -31,7 +34,15 @@ public class Player : MonoBehaviour
 
         Vector3 direction = new Vector3(lrMovement, 0, fbMovement);
 
-        transform.Translate(direction * _speed * Time.deltaTime);
+        if (Physics.Raycast(transform.position, transform.TransformDirection(direction), 0.6f))
+        {
+            Debug.Log("Wall detected");
+        }
+        else
+        {
+            transform.Translate(direction * _speed * Time.deltaTime);
+        }
+
     }
 
     private void RotatePlayer()
